@@ -1,0 +1,26 @@
+:root {
+  --main-background-color: #fff;
+  --secondary-background-color: radial-gradient(
+      1205.9% 207.07% at 79.33% 383.02%,
+      #482c98 0%,
+      rgba(45, 30, 136, 0) 100%
+    ),
+    #06054a;
+  --main-text-color: #777;
+  --secondary-text-color: #2f2949;
+  --navMenu-text-color: #fff;
+  --hover-mobile-menu-color: #433e8d;
+  --astromix-color: #acadc1;
+  --web-line-color: #ddd;
+  --hover-border-color: #52458a;
+  --hover-border-shadow: rgba(82, 69, 138, 0.3);
+
+  --gradient-start: #482c98;
+  --gradient-end: rgba(45, 30, 136, 0);
+  --background-color: #06054a;
+  --gradient: radial-gradient(
+    1205.9% 207.07% at 79.33% 383.02%,
+    var(--gradient-start) 0%,
+    var(--gradient-end) 100%
+  );
+}
