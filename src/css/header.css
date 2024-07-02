@@ -1,14 +1,12 @@
 .header {
   width: 100%;
-  background: url('../img/Group.png') no-repeat bottom,
-    radial-gradient(
+  background: radial-gradient(
       100.9% 100.07% at 79.33% 50.02%,
       #482c98 0%,
       rgba(45, 30, 136, 0) 100%
     ),
     #06054a;
   margin-bottom: 15px;
-  background-size: contain, cover;
 }
 
 .header__logo_burger-btn_wrapper {
@@ -52,6 +50,13 @@
 
 @media screen and (min-width: 1440px) {
   .header {
+    background: url('../img/Group.png') no-repeat bottom,
+      radial-gradient(
+        100.9% 100.07% at 79.33% 50.02%,
+        #482c98 0%,
+        rgba(45, 30, 136, 0) 100%
+      ),
+      #06054a;
     height: 100%;
     padding: 0px;
     width: 400px;
@@ -59,6 +64,7 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-bottom: 0px;
+    background-size: contain, cover;
   }
 
   .header__logo_burger-btn_wrapper {
